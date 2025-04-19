@@ -1,0 +1,60 @@
+{
+	"actors": [
+		{
+			"name": "actor_1",
+			"x": 44,
+			"y": 789,
+			"view": "g",
+			"blocking": true,
+			"vel_y": 0,
+			"nearby_dialogue": "hi"
+		},
+		{
+			"name": "player",
+			"x": 44,
+			"y": 782,
+			"view": "p",
+			"blocking": false,
+			"vel_y": 0,
+			"nearby_dialogue": ""
+		},
+		{
+			"name": "wall",
+			"x": 43,
+			"y": 782,
+			"view": "b",
+			"blocking": false,
+			"vel_y": 0,
+			"nearby_dialogue": "hello good sir"
+		},
+		{
+			"name": "wall",
+			"x": 43,
+			"y": 783,
+			"view": "d",
+			"blocking": false,
+			"vel_y": 0,
+			"nearby_dialogue": "hello good sir [you win]"
+		},
+		{
+			"name": "s",
+			"x": 43,
+			"y": 782,
+			"view": "s",
+			"blocking": false,
+			"vel_y": 0,
+			"nearby_dialogue": "hello there [health down]"
+		},
+		{
+			"name": "s",
+			"x": 43,
+			"y": 782,
+			"view": "L",
+			"blocking": false,
+			"vel_y": 0,
+			"nearby_dialogue": "hello there [game over]"
+		}
+
+
+	]
+}

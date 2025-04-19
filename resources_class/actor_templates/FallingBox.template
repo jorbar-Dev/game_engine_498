@@ -1,0 +1,12 @@
+{
+	"name": "Rigidbody",
+	"components": {
+		"1": {
+			"type": "SpriteRenderer",
+			"sprite": "box1"
+		},
+		"2": {
+			"type": "Rigidbody"
+		}
+	}
+}

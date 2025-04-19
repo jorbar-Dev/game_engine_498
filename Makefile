@@ -1,0 +1,2 @@
+main: 
+	clang++ main.cpp InputManager.cpp ./ThirdParty/box2d/collision/*.cpp ./ThirdParty/box2d/common/*.cpp ./ThirdParty/box2d/dynamics/*.cpp ./ThirdParty/box2d/rope/*.cpp -std=c++17 -I./ThirdParty/glm-0.9.9.8/ -I./ThirdParty/box2d/ -llua5.4 -I./ThirdParty/SDL2 -I./ThirdParty  -I./ThirdParty/SDL2_mixer  -I./ThirdParty/SDL2_ttf  -I./ThirdParty/SDL2_image -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer   -I./ThirdParty/rapidjson-1.1.0/include/rapidjson -o game_engine_linux -O3

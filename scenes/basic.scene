@@ -1,0 +1,13 @@
+{
+    "actors": [
+		{
+            "name": "spot",
+            "view_image": "player",
+            "transform_position_x":0,
+            "transform_position_y":0,
+            "transform_scale_x":1,
+            "transform_scale_y":1,
+            "transform_rotation_degrees":0
+        }
+    ]
+}
