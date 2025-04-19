@@ -250,7 +250,7 @@ public:
 		{
 			return r;
 		}
-		RendererHandler::GetColor(ID).r;
+		return RendererHandler::GetColor(ID).r;
 	}
 
 	int GetG() 
@@ -259,7 +259,7 @@ public:
 		{
 			return g;
 		}
-		RendererHandler::GetColor(ID).g;
+		return RendererHandler::GetColor(ID).g;
 	}
 
 	int GetB() 
@@ -268,7 +268,7 @@ public:
 		{
 			return b;
 		}
-		RendererHandler::GetColor(ID).b;
+		return RendererHandler::GetColor(ID).b;
 	}
 
 	int GetA() 
@@ -277,7 +277,7 @@ public:
 		{
 			return a;
 		}
-		RendererHandler::GetColor(ID).a;
+		return RendererHandler::GetColor(ID).a;
 	}
 
 	void SetColor(int R, int G, int B, int A) 
